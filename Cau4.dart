@@ -1,6 +1,6 @@
+import 'dart:io';
 
-
-void main(List<String> args) {
+void main() {
  
   for(int i = 0 ; i < 100 ; i++){
     print( "${i+1} Cuu Long\n");
