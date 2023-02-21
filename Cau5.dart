@@ -1,6 +1,6 @@
+import 'dart:io';
 
-
-void main(List<String> args) {
+void main() {
   int? n = int.parse(stdin.readLineSync()!);
   int sum = 0;
   for(int i = 0 ; i <= n ; i++){
