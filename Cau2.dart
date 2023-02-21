@@ -1,10 +1,10 @@
-
-void main(List<String> args) {
-  String? a = stdin.readLineSync()!;
+import 'dart:io';
+void main() {
+  String a = stdin.readLineSync()!;
   if(a == 'u' || a == 'e' || a == 'o' || a == 'a' || a == 'i'  )
   {
     print("$a la nguyen am");
   }
   else
-    print("$a l‡ phu am");
+    print("$a l√† phu am");
 }
